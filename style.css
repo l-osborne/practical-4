@@ -1,9 +1,9 @@
 :root{
-    --mainColour: rgb(158, 112, 162);
+    --mainColour: rgb(153, 103, 157);
     --mainColourDark: rgb(118, 74, 122);
     --textColour: rgb(255, 255, 255);
-    --buttonColour: rgb(0, 150, 150);
-    --buttonColourDark: rgb(0, 100, 100);
+    --secondaryColour: rgb(0, 150, 150);
+    --secondaryColourDark: rgb(0, 100, 100);
 }
 
 body{
@@ -55,10 +55,10 @@ li{
 
 button{
     font-family: "Rubik";
-    background-color: var(--buttonColour);
+    background-color: var(--secondaryColour);
     border: solid;
-    border-color: var(--buttonColourDark);
-    box-shadow: 0px 0px 10px 1px var(--buttonColourDark);
+    border-color: var(--secondaryColourDark);
+    box-shadow: 0px 0px 10px 1px var(--secondaryColourDark);
     width: 100px;
     height: 30px;
     color: var(--textColour);
@@ -68,23 +68,23 @@ button{
 }
 
 a{
-    background-color: var(--buttonColour);
+    background-color: var(--secondaryColour);
     border: solid;
-    border-color: var(--buttonColourDark);
+    border-color: var(--secondaryColourDark);
     border-radius: 10px;
     padding: 5px;
-    box-shadow: 0px 0px 10px 2px var(--buttonColourDark);
+    box-shadow: 0px 0px 10px 2px var(--secondaryColourDark);
 }
 
 button:hover{
-    background-color: var(--buttonColourDark);
-    border-color: var(--buttonColour);
+    background-color: var(--secondaryColourDark);
+    border-color: var(--secondaryColour);
 }
 
 button:active{
-    background-color: var(--buttonColour);
-    border-color: var(--buttonColourDark);
-    box-shadow: 0px 0px 15px 3px var(--buttonColourDark);
+    background-color: var(--secondaryColour);
+    border-color: var(--secondaryColourDark);
+    box-shadow: 0px 0px 15px 3px var(--secondaryColourDark);
 }
 
 .navigation{
@@ -96,4 +96,8 @@ button:active{
     border-color: var(--mainColour);
     border-radius: 10px;
     box-shadow: 0px 0px 10px 2px var(--mainColourDark);
+}
+
+.navigation-link{
+    margin-right: 10px;
 }
