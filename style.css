@@ -53,6 +53,15 @@ button{
     border-radius: 10px;
 }
 
+a{
+    background-color: var(--buttonColour);
+    border: solid;
+    border-color: var(--buttonColourDark);
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0px 0px 10px 2px var(--buttonColourDark);
+}
+
 button:hover{
     background-color: var(--buttonColourDark);
     border-color: var(--buttonColour);
