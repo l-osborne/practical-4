@@ -96,6 +96,7 @@ button:active{
     border-color: var(--mainColour);
     border-radius: 10px;
     box-shadow: 0px 0px 10px 2px var(--mainColourDark);
+    width: fit-content;
 }
 
 .navigation-link{
