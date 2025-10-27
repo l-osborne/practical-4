@@ -102,3 +102,10 @@ button:active{
 .navigation-link{
     margin-right: 10px;
 }
+
+.inline-link{
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    color: var(--secondaryColour);
+}
