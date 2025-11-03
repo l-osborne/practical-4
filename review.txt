@@ -1,0 +1,13 @@
+REVIEW BY DOM, HAYSIE AND DEVASHY
+Pros:
+ - Consistent navigation bar on all of the pages
+ - Good, consistent styling 
+ - Appealing aesthetic with colour and textboxes
+ - Good use of images
+
+Cons:
+ - Very left-centered, with blank space on the right side
+ - All subheadings are the same size as the page heading
+ - The home page could be styled slightly differently to stand out more from the other pages
+
+ 
