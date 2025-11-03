@@ -21,6 +21,7 @@ h1{
     border-color: var(--mainColour);
     border-width: 2px;
     box-shadow: 0px 0px 10px 2px var(--mainColourDark);
+    margin-top: 10px;
 }
 
 p{
@@ -32,6 +33,7 @@ p{
     border-color: var(--mainColour);
     border-width: 2px;
     box-shadow: 0px 0px 10px 2px var(--mainColourDark);
+    max-width: 500px;
 }
 
 ul{
@@ -74,6 +76,7 @@ a{
     border-radius: 10px;
     padding: 5px;
     box-shadow: 0px 0px 10px 2px var(--secondaryColourDark);
+    color: white;
 }
 
 button:hover{
